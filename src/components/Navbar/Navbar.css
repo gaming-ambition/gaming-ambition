@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #292B34;
+  z-index: 10;
 }
 
 #navbar .logo {

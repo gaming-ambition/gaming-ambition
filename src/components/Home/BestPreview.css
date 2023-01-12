@@ -1,0 +1,40 @@
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#container img {
+  border-radius: 50%;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+#details #name {
+  font-size: 30px;
+}
+
+#details #name {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#details #ratio {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.red {
+  color: darkred;
+}

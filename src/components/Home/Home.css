@@ -1,0 +1,108 @@
+#preview {
+  text-align: center;
+  position: relative;
+}
+
+#video-container {
+  display: flex;
+  justify-content: space-between;
+  max-height: 500px;
+}
+
+#preview-details {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 1;
+  bottom: 0;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  margin-bottom: 25px;
+}
+
+#preview-details i {
+  font-size: 20px;
+}
+
+#preview-details span {
+  font-size: 60px;
+  display: block;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+}
+
+#btn-container {
+  margin-top: 20px;
+}
+
+#btn-container button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+}
+
+#btn-more-details {
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  margin-right: -11px;
+  background-color: #F4BF00;
+}
+
+#btn-more-tournaments {
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-left: -11px;
+  background-color: #292B34;
+  color: white;
+
+}
+
+#best-perfs-container {
+  height: 330px;
+  background-color: #292B34;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#best-perfs-container #game-title {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  font-size: 20px;
+}
+
+#row-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  font-size: 25px;
+}
+
+#best-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#trust-companies {
+  width: 100%;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#trust-companies p {
+  font-size: 30px;
+}
+
+#companies {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
