@@ -9,13 +9,13 @@ function Authentication() {
         <div>
           <div>
             <label htmlFor="Username">Username</label>
-            <input type="text" name="Username"/>
+            <input type="text" name="Username"  placeholder="Username"/>
           </div>
           <div>
             <label htmlFor="Password">Password</label>
-            <input type="text" name="Password"/>
+            <input type="text" name="Password" placeholder="Password"/>
           </div>
-          <input type="submit" placeholder="Login" />
+          <input type="submit" value="Login" />
           <div>
             <p>New player ? <a>Register now</a></p>
           </div>
