@@ -1,0 +1,45 @@
+#navbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #292B34;
+  color: white;
+}
+
+#navbar .logo {
+  width: 100px;
+}
+
+#navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 800px;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin-left: -80px;
+  justify-content: center;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  display: flex;
+}
+
+.btn:nth-child(1) {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  margin-right: 8px;
+}
+
+.auth {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  justify-content: right;
+  padding-right: 40px;
+}
+
+.btn:hover {
+  background-color: #F4BF00;
+}
