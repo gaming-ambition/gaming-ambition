@@ -2,26 +2,27 @@ import './Navbar.css'
 import logo from "../../img/logo_navbar.png"
 
 function Navbar() {
+
   return (
     <>
       <div id="navbar">
         <div className="container">
-          <div className="btn ">
+          <a href="/home" className="btn" >
             <div className="logo">
               <img width="90px" src={logo} alt="" />
             </div>
             <span>Home</span>
-          </div>
-          <div className="btn">
+          </a>
+          <a href="/tournaments" className="btn">
             <span>Tournaments</span>
-          </div>
-          <div className="btn">
+          </a>
+          <a href="/ranking" className="btn">
             <span>Ranking</span>
-          </div>
+          </a>
         </div>
-        <div className="btn auth">
+        <a href="/authentication" className="btn auth">
           <span>Connexion</span>
-        </div>
+        </a>
       </div>
     </>
   )
