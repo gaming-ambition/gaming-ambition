@@ -1,13 +1,14 @@
 import './Navbar.css'
+import logo from "../../img/logo_navbar.png"
 
 function Navbar() {
   return (
     <>
       <div id="navbar">
         <div className="container">
-          <div className="btn">
+          <div className="btn ">
             <div className="logo">
-              t
+              <img width="90px" src={logo} alt="" />
             </div>
             <span>Home</span>
           </div>

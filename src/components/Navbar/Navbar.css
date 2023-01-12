@@ -1,6 +1,6 @@
 #navbar {
   width: 100vw;
-  height: 10vh;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   background-color: #292B34;
@@ -20,8 +20,8 @@
 
 .btn {
   text-transform: uppercase;
-  padding-top: 22px;
-  font-size: 20px;
+  padding-top: 25px;
+  font-size: 22px;
   width: 300px;
   margin-left: -80px;
   justify-content: center;
@@ -29,15 +29,23 @@
   display: flex;
 }
 
+.logo {
+  margin-top: -20px;
+  width: auto;
+  margin-left: 12px;
+}
+
 .btn:nth-child(1) {
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-  margin-right: 8px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .auth {
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
   justify-content: right;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .btn:hover {
