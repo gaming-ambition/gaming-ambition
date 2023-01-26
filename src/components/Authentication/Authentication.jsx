@@ -19,7 +19,7 @@ function Authentication() {
 
   return (
     <section className="Authentication">
-      <div id="login" className="hidden">
+      <div id="login">
         <img width="100px" src={logo} alt="" />
         <div>
           <div>
@@ -37,7 +37,7 @@ function Authentication() {
         </div>
       </div>
 
-      <div id="register">
+      <div id="register" className="hidden">
         <img width="100px" src={logo} alt="" />
         <div>
         <div>
@@ -67,7 +67,7 @@ function Authentication() {
           
           <input type="submit" value="Register" />
           <div>
-            <p onClick={loginPop}>Go back</p>
+            <p><a onClick={loginPop}>Go back</a></p>
           </div>
         </div>
       </div>
