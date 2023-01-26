@@ -1,0 +1,39 @@
+#header {
+  height: 100px;
+  background-color: #F4BF00;
+  text-align: center;
+}
+
+#header p {
+  font-size: 35px;
+  margin: 0;
+  padding-top: 25px;
+  color: white;
+}
+
+#tournaments {
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  background-color: #F4BF00;
+}
+
+#tournaments #game1 {
+  width: 60%;
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  height: 100%;
+  margin-right: -100px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#tournaments #game2 {
+  margin-left: -100px;
+  width: 60%;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
